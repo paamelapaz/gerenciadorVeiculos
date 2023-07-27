@@ -131,6 +131,7 @@
             // 
             // TelaBuscarPorEspecificacao
             // 
+            AcceptButton = btnBuscarEspec;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
@@ -140,6 +141,7 @@
             Controls.Add(btnBuscarEspec);
             Controls.Add(label9);
             Controls.Add(dataGridView1);
+            KeyPreview = true;
             MaximizeBox = false;
             Name = "TelaBuscarPorEspecificacao";
             ShowIcon = false;

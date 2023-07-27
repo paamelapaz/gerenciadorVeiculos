@@ -219,6 +219,7 @@
             // 
             // TelaAlterarVeiculo
             // 
+            AcceptButton = btnAlterar;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
@@ -242,6 +243,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            KeyPreview = true;
             MaximizeBox = false;
             Name = "TelaAlterarVeiculo";
             ShowIcon = false;
